@@ -1,0 +1,123 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+    margin: 0%; padding: 0%;
+    outline: none;
+    color: #FFF;
+}
+
+body {
+    /* background: #33A2FF; */
+    background: linear-gradient(45deg, #e66465, #9198e5);
+}
+
+#profile {
+    width: 100%;
+    height: 100vh;
+}
+.profile-div {
+    position: absolute;
+    width: 250px;
+    height: 400px;
+    left: 50%; top: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 0 7px #000;
+}
+.profile-img-div {
+    width: 100%;
+    height: auto;
+}
+.profile-img-div nav {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: -1;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+}
+.profile-img-div img {
+    width: 100%;
+    height: auto;
+}
+.footer-writer {
+    width: 100%;
+    height: 100%;
+    /* padding: 1rem; */
+    padding: 0% 1.4rem;
+}
+.footer-writer h5 {
+    margin-top: 0.5em;
+    text-shadow: 0 0 2px #FFF;
+}
+.footer-writer p {
+    margin-top: 0.6em;
+    font-size: 0.6rem;
+}
+.icons-section {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding-top: 1.6em;
+}
+.icons-section a {
+    margin-right: 1rem;
+    cursor: pointer;
+}
+.back-image {
+    width: 100%;
+    height: auto;
+}
+
+.circle-img {
+    width: 100%;
+    height: 160px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+.circle-img img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    border: 1px solid #FFF;
+    box-shadow: 0 0 4px #FFF;
+    cursor: pointer;
+    transition: .5s;
+}
+.circle-img img:hover {
+    box-shadow: 0 0 6px purple;
+}
+
+.footer-writer h1 {
+    text-align: center;
+}
+.footer-writer h5, p {
+    text-align: center;
+}
+
+.footer-footer-footer {
+    width: 100%;
+    height: 100px;
+}
+.footer-footer-footer input {
+    width: 100%;
+    height: 3em;
+    margin-top: 1rem;
+    color: #000;
+    border-radius: 1rem;
+    border: 1px solid #FFF;
+    border: none;
+    padding: 0 0.4rem;
+    transition: .4s;
+}
+.footer-footer-footer input:focus {
+    border: 1px solid #FFF;
+    background: purple;
+    color: #FFF;
+}
